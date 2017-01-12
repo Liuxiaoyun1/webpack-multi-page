@@ -1,0 +1,40 @@
+{
+  "name": "webpack-multiple-page",
+  "version": "1.0.0",
+  "description": "webpack 多页面打包方案",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "webpack --progress --hide-modules"
+  },
+  "author": "hugywin@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-loader": "^2.0.0-beta.19",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap-webpack": "^0.0.5",
+    "css-loader": "^0.25.0",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.0",
+    "imports-loader": "^0.7.0",
+    "jquery": "^1.12.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "node-sass": "^4.2.0",
+    "resolve-url-loader": "^1.6.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.15",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "glob": "^7.1.1",
+    "html-loader": "^0.4.4",
+    "url-loader": "^0.5.7"
+  }
+}
