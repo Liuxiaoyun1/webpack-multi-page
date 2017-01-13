@@ -11,7 +11,7 @@ http://localhost:8080
 
 
 ### 配置
-
+```javascript
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -91,3 +91,4 @@ var webpackConfig = {
 }
 
 module.exports = webpackConfig;
+```
